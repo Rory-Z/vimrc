@@ -4,6 +4,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'git://github.com/scrooloose/nerdtree.git'
 Plugin 'git://github.com/vim-erlang/vim-erlang-runtime.git'
 Plugin 'git://github.com/vim-erlang/vim-erlang-tags.git'
