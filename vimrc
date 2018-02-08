@@ -15,13 +15,16 @@ Plugin 'git://github.com/vim-erlang/vim-erlang-skeletons.git'
 call vundle#end()
 filetype plugin indent on
 
+syntax on
+
 set nu
 set ruler
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set backspace=2
-syntax on
+set incsearch
+set hlsearch
 
 set background=dark
 let g:solarized_termcolors=256
@@ -29,3 +32,4 @@ colorscheme solarized
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
+
