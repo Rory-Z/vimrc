@@ -17,7 +17,7 @@ filetype plugin indent on
 
 syntax on
 
-set nu
+"set nu
 set ruler
 set tabstop=4
 set shiftwidth=4
@@ -25,6 +25,9 @@ set expandtab
 set backspace=2
 set incsearch
 set hlsearch
+
+let NERDTreeDirArrowExpandable = "+"
+let NERDTreeDirArrowCollapsible = "-"
 
 set background=dark
 let g:solarized_termcolors=256
