@@ -31,6 +31,7 @@ set backspace=2
 set incsearch
 set hlsearch
 set encoding=utf-8
+set clipboard^=unnamed,unnamedplus
 
 let NERDTreeDirArrowExpandable = "+"
 let NERDTreeDirArrowCollapsible = "-"
